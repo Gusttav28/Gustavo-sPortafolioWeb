@@ -16,3 +16,6 @@ def resume(request):
 
 def contac(request):
     return render(request, "contac.html")
+
+def projects(request):
+    return render(request, "projects.html")
